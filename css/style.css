@@ -15,7 +15,8 @@
     /* Add other font properties if needed */
   }
 
-  .banner-image{background-image: url('../assest/images/bckground\ image.png');}
+  .banner-image{background-image: url('../assest/images/bckground\ image.png');
+   }
 
 
   @media (max-width: 1400px) and  (min-width:1000px){
@@ -28,3 +29,18 @@
             max-width: 1200px;
         }
     }
+
+     
+body{background-color: #EDDDAC;}
+
+
+header{background: url('../assest/images/stickyimage.png') no-repeat 50% 50%;
+width:100%;
+height:100vh;
+background-size:cover ;
+background-attachment: fixed;
+
+}   
+
+.navposition{position: fixed;}
+
