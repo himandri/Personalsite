@@ -1,0 +1,30 @@
+.gradient-background {
+    background: linear-gradient(300deg, #EEFA8E, #FAF08E, #8EFAAF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.banner-background{background-color: #FAD6AF;}  
+.header-background{background-color: #EDB85C;}  
+
+
+@font-face {
+    font-family: 'namaste';
+    src: url('Fonts/AnandaNamaste.woff2') format('woff2'),
+         url('Fonts/AnandaNamaste.woff') format('woff');
+    /* Add other font properties if needed */
+  }
+
+  .banner-image{background-image: url('../assest/images/bckground\ image.png');}
+
+
+  @media (max-width: 1400px) and  (min-width:1000px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+  }
+    @media (max-width: 992px) {
+        .container, .container-lg, .container-md, .container-sm {
+            max-width: 1200px;
+        }
+    }
